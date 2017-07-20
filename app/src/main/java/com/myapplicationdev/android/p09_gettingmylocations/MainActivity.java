@@ -83,7 +83,7 @@ import java.io.FileWriter;
             }
         });
 
-        btnCheck.setOnClickListener(new View.OnClickListener() {
+        btnCheckR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 File targetFile = new File(folderLocation, "data.txt");
